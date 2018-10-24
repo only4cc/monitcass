@@ -1,7 +1,7 @@
 #!/bin/bash
 # JTS
 # check_nodes.sh 
-# Objetivo: Revisar disponibilidad de los nodos del cluster de Banco Estado
+# Objetivo: Revisar disponibilidad de los nodos del cluster de un CLIENTE_XXX
 #
 
 
@@ -22,7 +22,7 @@ echo "seis nodos arriba"
 exit 0
 else
 NOW=$(date +"%d-%m-%Y")
-MSG="$NOW - Cassandra: Cluster Banco Estado - Nodos arriba $RET es distinto a 6"
+MSG="$NOW - Cassandra: Cluster Cliente_XXX - Nodos arriba $RET es distinto a 6"
 echo $MSG
 # logger -s $MSG
 # /home/cassandra/enviam.sh "$MSG"
