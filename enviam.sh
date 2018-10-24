@@ -10,7 +10,7 @@ fi
 
 # echo +++++ filename: [ $filename ]
 
-/usr/bin/perl /home/cassandra/send.pl eco_dba@e-contact.cl ArquitecturaDB@e-contact.cl jtrumper@e-contact.cl "$subj"  "$filename"
+/usr/bin/perl /home/cassandra/send.pl origen@domain.cl destino@domain.cl destino_cc@domain.cl "$subj"  "$filename"
 
 rm $filename
 
